@@ -94,4 +94,4 @@ const thoughtController = {
         return res.status(404).json({ message: "No user found with this id, Try again next time" });
       }
 
-      res.json(
+      res.json()
