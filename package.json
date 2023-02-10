@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon script.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/craftersol728/Best-Social-Network-API/issues"
   },
-  "homepage": "https://github.com/craftersol728/Best-Social-Network-API#readme"
+  "homepage": "https://github.com/craftersol728/Best-Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
